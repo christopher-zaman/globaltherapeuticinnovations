@@ -30,8 +30,33 @@ h1, h2, h3, h4, h5,
 .make-responsive-image{
   max-width:100%;
 }
-.our-discovery-bg{
+/*.our-discovery-bg{
   background-image: url("../images/main-bg.png");
+}*/
+.main-bg-image{
+  background-image: url("../images/main-bg.png");
+  height: 500px;
+}
+
+.info-section-bg{
+  background-image: url("../images/info-section-bg.png");
+}
+.purpose-and-vision-bg{
+  background-image: url("../images/purpose-and-vision.png");
+}
+.news-bg{
+  background-image: url("../images/news-bg.png");
+}
+
+.main-section-button{
+  background-color: rgba(0,0,0,0.3);
+  color: #fff;
+  border-radius: 40px;
+  border-color: #71bd2e;
+  width: 85%;
+  height: 80px;
+  font-size: x-large;
+  text-transform: uppercase;
 }
 .border-2 {
   border-width: 2px; }
